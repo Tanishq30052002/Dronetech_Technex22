@@ -197,7 +197,7 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
 # Instructions regarding submissions
 - **Round 1:** 
          <ul>
-           <li>Team leader have to appear for the quiz on D2C on 9th march.</li>
+           <li>Teams have to register on D2C before 8 March 2022 11:58 PM and leader will have to appear for the quiz on D2C on 9 March 2022.</li>
            <li>Portal will remain open between 12 noon - 3 PM. Quiz can be given anytime between 12 noon - 3 PM and 40 minutes will be given after the start of the quiz.</li>
            <li>Only one submission per team will be accepted.</li>
            <li>Quiz link can be found [HERE](https://dare2compete.com/o/b61Yrn2?lb=JqIDm9e).</li>
@@ -208,7 +208,7 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
            <li>Teams are needed to record the video of the drone completing the problem statement in the practice arena using any suitable screen recorder and have to upload it as an unlisted video on youtube.</li>
            <li>In the following google form, they are required to submit the youtube video link and "my_controller.py" file.</li>
            <li>Only one submission per team will be accepted. In case of multiple submissions, latest submission will be considered.</li>
-           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 12 March 2022 EOD (Note:- The form will start accepting responses after 10 March 2022).</li>
+           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 12 March 2022 11:59 PM (Note:- The form will start accepting responses after 10 March 2022).</li>
          </ul>
          
          
