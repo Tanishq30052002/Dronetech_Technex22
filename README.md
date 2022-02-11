@@ -51,7 +51,7 @@
 </details>
 
 # Overview
-All over India, students are waiting in a hope to be called back to the campus. Now that their voices went unheard multiple number of times, they have decided to break the doors of the institute. But there are some moulds inside the main door, in which color sensors are placed. In order to unlock it, the moulds need to be filled with shapes of appropriate color. These shapes are hidden at various places in our world and hence, the time has come for our friend Mavic Pro to help find those shapes. But before taking his help, you must know that the only thing our mini friend is afraid of is collisions :(
+The American symbologist Robert Langdon is brought to the Vatican to help because four of the cardinals, the favored candidates to be elected pope, are missing, and an antimatter canister has been stolen from the CERN laboratory. The kidnapper sends the Vatican a warning in which he claims to represent the Illuminati and that he will murder each of the cardinals from 8 p.m. to midnight when the stolen antimatter will explode and destroy the city, hidden somewhere within. Langdon deduces from the warning that the four cardinals will be murdered on the four altars of the Path of Illumination. The clue to the antimatter canister is hidden inside Galileo Galilei's banned book, which is in the Vatican Secret Archives. The door to the archives contains some shapes and can be unlocked only when the correct shape is touched. While if any wrong shape is touched, the door will remain locked for four days and won’t open even if the correct shape is touched. The four altars where the cardinals are hidden trace the same shape that should be touched on the archives’ door. Langdon has to find the cardinals to save them and get the correct shape and then access the archives to find the canister at the earliest in order to save the Vatican City.
 
 
 <p align="center">
@@ -64,7 +64,8 @@ All over India, students are waiting in a hope to be called back to the campus. 
  <i>Glimpses of the world</i><br> 
 </p>
 
-To solve this major problem of college reopening, we cannot take any risk and hence, we need to test you in two rounds. Round 1 requires submitting a quiz on D2C which will be based on drone dynamics, so that we can ensure that you understand our friend very well, and as for the second round, you need to get your hands dirty with a simulator.
+    The altars are hidden at various secret places and hence, the time has come for our friend Mavic Pro to help find those altars. But before taking his help, you must know that the only thing our mini friend is afraid of is collisions. The whole city is at stake and no risk can be taken. So, we need to test you in two rounds. Round 1 requires submitting a quiz on D2C which will be based on Drone Dynamics and OpenCV Image Recognition, so that we can ensure that you understand our friend very well, and as for the second round, you need to get your hands dirty with a simulator.
+
 
 # Round 1
 
@@ -89,7 +90,7 @@ Round 1 will be a quiz on D2C with the following pattern:
 Autonomous Drone navigation, colour and shape detection
 
 ### **<ins>Problem Statement</ins>**
-The simulator we will be using is WeBots simulator. Your drone needs to scan a few QR codes in order to find the shapes. Perform the following tasks with the drone and go enjoy your college life :)
+The simulator we will be using is WeBots Simulator. The four altars are represented by four shapes in the arena. Your drone needs to scan a few QR codes in order to find the shapes. Perform the following tasks with the drone and go save the Vatican (Note:- The practice arena will be released in this same repo on 2 March 2022):-
 1. Using the camera provided on the drone, scan a QR code placed right in front of it. 
 <p align="center">
  <img src="/assets/image2.png">
@@ -207,7 +208,7 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
            <li>Teams are needed to record the video of the drone completing the problem statement in the practice arena using any suitable screen recorder and have to upload it as an unlisted video on youtube.</li>
            <li>In the following google form, they are required to submit the youtube video link and "my_controller.py" file.</li>
            <li>Only one submission per team will be accepted. In case of multiple submissions, latest submission will be considered.</li>
-           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 13 March 2022 EOD.</li>
+           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 13 March 2022 EOD (Note:- The form will start accepting responses after 10 March 2022).</li>
          </ul>
          
          
