@@ -208,7 +208,7 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
            <li>Teams are needed to record the video of the drone completing the problem statement in the practice arena using any suitable screen recorder and have to upload it as an unlisted video on youtube.</li>
            <li>In the following google form, they are required to submit the youtube video link and "my_controller.py" file.</li>
            <li>Only one submission per team will be accepted. In case of multiple submissions, latest submission will be considered.</li>
-           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 13 March 2022 EOD (Note:- The form will start accepting responses after 10 March 2022).</li>
+           <li>Submit your link and file [here](https://forms.gle/7hngnc3S19aBeUGS7) by 12 March 2022 EOD (Note:- The form will start accepting responses after 10 March 2022).</li>
          </ul>
          
          
