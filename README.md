@@ -64,7 +64,7 @@ The American symbologist Robert Langdon is brought to the Vatican to help becaus
  <i>Glimpses of the world</i><br> 
 </p>
 
-    The altars are hidden at various secret places and hence, the time has come for our friend Mavic Pro to help find those altars. But before taking his help, you must know that the only thing our mini friend is afraid of is collisions. The whole city is at stake and no risk can be taken. So, we need to test you in two rounds. Round 1 requires submitting a quiz on D2C which will be based on Drone Dynamics and OpenCV Image Recognition, so that we can ensure that you understand our friend very well, and as for the second round, you need to get your hands dirty with a simulator.
+The altars are hidden at various secret places and hence, the time has come for our friend Mavic Pro to help find those altars. But before taking his help, you must know that the only thing our mini friend is afraid of is collisions. The whole city is at stake and no risk can be taken. So, we need to test you in two rounds. Round 1 requires submitting a quiz on D2C which will be based on Drone Dynamics and OpenCV Image Recognition, so that we can ensure that you understand our friend very well, and as for the second round, you need to get your hands dirty with a simulator.
 
 
 # Round 1
