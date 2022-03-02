@@ -1,11 +1,11 @@
 <div>
 <img src=
-"/assets/Dronetech.png" 
+"/Assets/Dronetech.png" 
          alt="Dronetech logo" 
          align="right" 
          width="70">
 <img src=       
-"/assets/titleLogo.png" 
+"/Assets/titleLogo.png" 
          alt="technex logo" 
          align="left" 
          width="80">
@@ -16,7 +16,7 @@
 <br>
 
 <div align = "center">
-<img src="/assets/Drone.gif" alt="Drone" align="center">
+<img src="/Assets/Drone.gif" alt="Drone" align="center">
 </div>
          
 ## Table of contents
@@ -55,11 +55,11 @@ The American symbologist Robert Langdon is brought to the Vatican to help becaus
 
 
 <p align="center">
- <img src="/assets/image4.png">
+ <img src="/Assets/image4.png">
  <p align="center">
 </p>
 <p align="center">
- <img src="/assets/image5.png">
+ <img src="/Assets/image5.png">
  <p align="center">
  <i>Glimpses of the world</i><br> 
 </p>
@@ -93,7 +93,7 @@ Autonomous Drone navigation, colour and shape detection
 The simulator we will be using is WeBots Simulator. The four altars are represented by four shapes in the arena. Your drone needs to scan a few QR codes in order to find the shapes. Perform the following tasks with the drone and go save the Vatican (Note:- The practice arena will be released in this same repo on 2 March 2022):-
 1. Using the camera provided on the drone, scan a QR code placed right in front of it. 
 <p align="center">
- <img src="/assets/image2.png">
+ <img src="/Assets/image2.png">
  <p align="center">
  <i>This is where the drone will spawn</i><br> 
 </p>
@@ -101,7 +101,7 @@ The simulator we will be using is WeBots Simulator. The four altars are represen
 2. This QR code provides the name of the shape of the next box as well as its RGB values.
 3. Locate the next box using the above information and store its world coordinates.
 <p align="center">
- <img src="/assets/image6.png">
+ <img src="/Assets/image6.png">
  <p align="center">
 </p>
 
@@ -109,14 +109,14 @@ The simulator we will be using is WeBots Simulator. The four altars are represen
 5. Locate the next box using the above information and store its world coordinates.
 6. Keep moving to the next box until you reach a point where the QR code contains coordinates instead of shape name and RGB values.
 <p align="center">
- <img src="/assets/image7.png">
+ <img src="/Assets/image7.png">
  <p align="center">
  <i>This QR code contains the world coordinates of the banner</i><br> 
 </p>
 
 7. Now, reach those coordinates where you will find a banner lying on the floor with various white shapes drawn over it.
 <p align="center">
- <img src="/assets/image8.png">
+ <img src="/Assets/image8.png">
  <p align="center">
 </p>
 
@@ -128,7 +128,7 @@ Landing of the drone on the correct shape determines the successful completion o
 2. It has one downward facing camera and one forward facing camera.
 3. It has three distance sensors (left, right and front).
 <p align="center">
- <img src="/assets/image9.png">
+ <img src="/Assets/image9.png">
  <p align="center">
  <i>Dji Mavic 2 Pro</i><br> 
 </p>
@@ -173,14 +173,14 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
 1. Download the folder named as "Dronetech'22" in your local machine.
 2. Inside the worlds folder, launch the "Dronetech'22_arena" file.
 <p align="center">
- <img src="/assets/image3.png">
+ <img src="/Assets/image3.png">
  <p align="center">
  <i>Top view of the world without the ceiling</i><br> 
 </p>
 
 3. Search for Mavic2Pro in the left panel and select the controller as "my_controller.py" in the controllers/my_controller folder.
 <p align="center">
- <img src="/assets/image1.png">
+ <img src="/Assets/image1.png">
  <p align="center">
 </p>
 
@@ -213,8 +213,8 @@ As mentioned earlier,Round 2 of Dronetech'22 will be done in WeBots simulation a
          
          
 <div align="center">
-<img src="/assets/LOGO2.png" alt="Technex logo" align="center" width="270">
+<img src="/Assets/LOGO2.png" alt="Technex logo" align="center" width="270">
 </div> 
 <div align="bottom">         
-<img src= "/assets/technex.png" alt="technex logo" align="right" width="150">
+<img src= "/Assets/technex.png" alt="technex logo" align="right" width="150">
 </div>
