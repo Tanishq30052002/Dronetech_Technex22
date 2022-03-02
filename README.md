@@ -125,7 +125,7 @@ Landing of the drone on the correct shape determines the successful completion o
 
 ### **<ins>Drone Specifications:</ins>**
 1. The drone used is Dji Mavic 2 Pro.
-2. It has one downward facing camera.
+2. It has one downward facing camera and one forward facing camera.
 3. It has three distance sensors (left, right and front).
 <p align="center">
  <img src="/assets/image9.png">
