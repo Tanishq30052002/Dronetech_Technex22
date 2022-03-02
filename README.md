@@ -50,6 +50,7 @@
   </ol>
 </details>
 
+## UPDATE: A forward facing camera has also been added to the drone.
 # Overview
 The American symbologist Robert Langdon is brought to the Vatican to help because four of the cardinals, the favored candidates to be elected pope, are missing, and an antimatter canister has been stolen from the CERN laboratory. The kidnapper sends the Vatican a warning in which he claims to represent the Illuminati and that he will murder each of the cardinals from 8 p.m. to midnight when the stolen antimatter will explode and destroy the city, hidden somewhere within. Langdon deduces from the warning that the four cardinals will be murdered on the four altars of the Path of Illumination. The clue to the antimatter canister is hidden inside Galileo Galilei's banned book, which is in the Vatican Secret Archives. The door to the archives contains some shapes and can be unlocked only when the correct shape is touched. While if any wrong shape is touched, the door will remain locked for four days and won’t open even if the correct shape is touched. The four altars where the cardinals are hidden trace the same shape that should be touched on the archives’ door. Langdon has to find the cardinals to save them and get the correct shape and then access the archives to find the canister at the earliest in order to save the Vatican City.
 
