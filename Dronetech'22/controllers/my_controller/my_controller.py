@@ -58,13 +58,17 @@ class Drone:
         self.k_pitch_p = 30.0
 
         self.target_altitude = 1.0
+        self.prev_error = 0
+        self.integral = 0
 
     def move(self,command,intensity):
         roll = self.imu.getRollPitchYaw()[0] + math.pi / 2.0
         pitch = self.imu.getRollPitchYaw()[1]
+        yaw = self.imu.getRollPitchYaw()[2]
         altitude = self.gps.getValues()[1]
         roll_acceleration = self.gyro.getValues()[0]
         pitch_acceleration = self.gyro.getValues()[1]
+        yaw_accelration = self.gyro.getValues()[2]
 
         # led_state = int(time) % 2
         # front_left_led.set(led_state)
@@ -84,9 +88,9 @@ class Drone:
         elif(command=='right'):
             yaw_disturbance = intensity  #1.3
         elif(command=='left'):
-            yaw_disturbance = intensity  #-1.3
+            yaw_disturbance = -intensity  #-1.3
         elif(command=='sRight'):
-            roll_disturbance = intensity  #-1.0
+            roll_disturbance = -intensity  #-1.0
         elif(command=='sLeft'):
             roll_disturbance = intensity  #1.0
         elif(command=='up'):
@@ -94,13 +98,23 @@ class Drone:
         elif(command=='down'):
             self.target_altitude -= intensity  #0.05
 
+        P = 5      
+        I = 0.350
+        D =  1250
+        error = self.target_altitude - altitude
+        derivative = error - self.prev_error
+        if abs(error) < 0.1:
+            self.integral += error
+        else:
+            self.integral = 0
+        pid = P * error + D * derivative + I * self.integral
+        self.prev_error = error
         roll_input = self.k_roll_p * CLAMP(roll, -1.0, 1.0) + roll_acceleration + roll_disturbance
         pitch_input = self.k_pitch_p * CLAMP(pitch, -1.0, 1.0) - pitch_acceleration + pitch_disturbance
-        yaw_input = yaw_disturbance
-        clamped_difference_altitude = CLAMP(self.target_altitude - altitude + self.k_vertical_offset, -1.0, 1.0)
+        yaw_input = yaw_disturbance + yaw_accelration
+        clamped_difference_altitude = CLAMP(pid, -1.0, 1.0)
         vertical_input = self.k_vertical_p * pow(clamped_difference_altitude, 3.0)
 
-        
         front_left_motor_input = self.k_vertical_thrust + vertical_input - roll_input - pitch_input + yaw_input
         front_right_motor_input = self.k_vertical_thrust + vertical_input + roll_input - pitch_input - yaw_input
         rear_left_motor_input = self.k_vertical_thrust + vertical_input - roll_input + pitch_input - yaw_input
